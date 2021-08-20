@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<script>
+		SpeechRecognition = webkitSpeechRecognition || SpeechRecognition;
+		const recognition = new SpeechRecognition();
+		recognition.continuous = true;		
+		recognition.onresult = (event) => {
+	    	console.log(event.results);
+	    	var index = event.results.length - 1;
+			var text = event.results[index][0].transcript;
+	    	document.getElementById("msg").innerHTML = text
+	  	}
+		recognition.start();
+	</script>
+</head>
+<body>
+	<div id="msg">入力待ち</div>
+</body>
+</html>
