@@ -1,7 +1,7 @@
 # はじめに
 これは音声認識をして、その認識した言葉をvoiceroidに話させるプログラムです。
 
-（動画 https://twitter.com/mty_mno/status/1428709646458527750）
+（動画 https://twitter.com/mty_mno/status/1428709646458527750 ）
 
 現在は"VOICEROID2 紲星あかり"のみで動作を確認しています。
 
