@@ -9,7 +9,9 @@
 
 このプログラムはpythonがインストールされていること、voiceroidがインストールされていることが前提です。
 
+プログラムの説明は以下のブログ記事に記載しています。
 
+https://testerchan.hatenadiary.com/entry/2021/08/21/133238
 
 
 # 準備
