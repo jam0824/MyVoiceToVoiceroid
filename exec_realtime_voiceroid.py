@@ -9,7 +9,6 @@ appium = model_appium.ModelAppium(
     "http://127.0.0.1:4723", 
     "C:\Program Files (x86)\AHS\VOICEROID2\VoiceroidEditor.exe"
 )
-time.sleep(3)
 
 old_text = "入力待ち"
 while True:
